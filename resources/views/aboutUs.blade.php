@@ -43,11 +43,22 @@
             padding: 5px 10px 5px 10px;
             text-transform: uppercase;
             cursor: pointer;
+            transition: transform .7s;
+        }
+
+        li:hover {
+            transform: scale(1.2);
+
         }
 
         a {
             text-decoration: none;
             color: white;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
         }
     </style>
 </head>
