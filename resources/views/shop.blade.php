@@ -46,6 +46,12 @@
             transition: transform .7s;
         }
 
+        li:nth-child(3) a {
+            color: yellow;
+            text-decoration: underline;
+
+        }
+
         li:hover {
             transform: scale(1.2);
 
